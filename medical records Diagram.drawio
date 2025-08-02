@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Page-1" id="QDbd5cY-bWXGp2kaQl07">
-    <mxGraphModel dx="2276" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1566" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,16 +73,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-19" value="List for SCAN Files or QR code" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="530" width="320" height="120" as="geometry" />
+          <mxGeometry x="-230" y="530" width="320" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="T_EyYF5P1BX6eirX32t8-20" value="FILL UP requesting form with complete attachment authorization letter, photocopy of valid ID&#39;s" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="T_EyYF5P1BX6eirX32t8-19">
+        <mxCell id="T_EyYF5P1BX6eirX32t8-20" value="1. FILL UP requesting form with complete attachment authorization letter, photocopy of valid ID&#39;s" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="T_EyYF5P1BX6eirX32t8-19">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T_EyYF5P1BX6eirX32t8-21" value="For signature of attending physicians" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="T_EyYF5P1BX6eirX32t8-19">
+        <mxCell id="T_EyYF5P1BX6eirX32t8-21" value="2. For signature of attending physicians" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="T_EyYF5P1BX6eirX32t8-19">
           <mxGeometry y="60" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="T_EyYF5P1BX6eirX32t8-22" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="T_EyYF5P1BX6eirX32t8-19">
-          <mxGeometry y="90" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T_EyYF5P1BX6eirX32t8-23">
           <mxGeometry relative="1" as="geometry">
@@ -154,13 +151,13 @@
         <mxCell id="T_EyYF5P1BX6eirX32t8-46" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="420" width="100" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="T_EyYF5P1BX6eirX32t8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.538;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T_EyYF5P1BX6eirX32t8-22" target="T_EyYF5P1BX6eirX32t8-27">
+        <mxCell id="T_EyYF5P1BX6eirX32t8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.538;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.463;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="T_EyYF5P1BX6eirX32t8-21" target="T_EyYF5P1BX6eirX32t8-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="780" as="targetPoint" />
-            <mxPoint x="220" y="640" as="sourcePoint" />
+            <mxPoint x="90" y="635" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T_EyYF5P1BX6eirX32t8-47" value="Tree Container" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+        <mxCell id="T_EyYF5P1BX6eirX32t8-47" value="Release Medical Abstract" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
           <mxGeometry x="20" y="740" width="400" height="320" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-48" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="T_EyYF5P1BX6eirX32t8-47" source="T_EyYF5P1BX6eirX32t8-49" target="T_EyYF5P1BX6eirX32t8-50">
