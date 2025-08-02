@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Page-1" id="QDbd5cY-bWXGp2kaQl07">
-    <mxGraphModel dx="1566" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2276" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,16 +158,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-47" value="Release Medical Abstract" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
-          <mxGeometry x="20" y="740" width="400" height="320" as="geometry" />
+          <mxGeometry x="20" y="740" width="350" height="260" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-48" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="T_EyYF5P1BX6eirX32t8-47" source="T_EyYF5P1BX6eirX32t8-49" target="T_EyYF5P1BX6eirX32t8-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T_EyYF5P1BX6eirX32t8-49" value="Parent" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="T_EyYF5P1BX6eirX32t8-47">
-          <mxGeometry x="140" y="60" width="120" height="40" as="geometry" />
+        <mxCell id="T_EyYF5P1BX6eirX32t8-49" value="Authorized Person" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="T_EyYF5P1BX6eirX32t8-47">
+          <mxGeometry x="160" y="70" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="T_EyYF5P1BX6eirX32t8-50" value="Child" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="T_EyYF5P1BX6eirX32t8-47">
-          <mxGeometry x="140" y="140" width="120" height="40" as="geometry" />
+        <mxCell id="T_EyYF5P1BX6eirX32t8-50" value="Verification Process" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="T_EyYF5P1BX6eirX32t8-47">
+          <mxGeometry x="160" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_EyYF5P1BX6eirX32t8-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="T_EyYF5P1BX6eirX32t8-47" source="T_EyYF5P1BX6eirX32t8-63" target="T_EyYF5P1BX6eirX32t8-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_EyYF5P1BX6eirX32t8-63" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="T_EyYF5P1BX6eirX32t8-47">
+          <mxGeometry x="60" y="50" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_EyYF5P1BX6eirX32t8-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="T_EyYF5P1BX6eirX32t8-47" source="T_EyYF5P1BX6eirX32t8-64" target="T_EyYF5P1BX6eirX32t8-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_EyYF5P1BX6eirX32t8-64" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="T_EyYF5P1BX6eirX32t8-47">
+          <mxGeometry x="60" y="140" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-52" value="Developer" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="-190" y="70" width="120" height="60" as="geometry" />
