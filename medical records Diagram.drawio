@@ -46,13 +46,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T_EyYF5P1BX6eirX32t8-10" target="T_EyYF5P1BX6eirX32t8-23">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="350" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T_EyYF5P1BX6eirX32t8-10" target="T_EyYF5P1BX6eirX32t8-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="T_EyYF5P1BX6eirX32t8-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T_EyYF5P1BX6eirX32t8-10" target="T_EyYF5P1BX6eirX32t8-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-10" value="MEDICAL RECORDS SYSTEM" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="310" width="230" height="80" as="geometry" />
+          <mxGeometry x="360" y="310" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-11" value="OPD" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=20;" vertex="1" parent="1">
           <mxGeometry x="200" y="310" width="120" height="80" as="geometry" />
@@ -69,16 +76,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-19" value="List for SCAN Files or QR code" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="530" width="320" height="90" as="geometry" />
+          <mxGeometry x="-230" y="530" width="310" height="90" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-20" value="1. FILL UP requesting form with complete attachment authorization letter, photocopy of valid ID&#39;s" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="T_EyYF5P1BX6eirX32t8-19">
-          <mxGeometry y="30" width="320" height="30" as="geometry" />
+          <mxGeometry y="30" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-21" value="2. For signature of attending physicians" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="T_EyYF5P1BX6eirX32t8-19">
-          <mxGeometry y="60" width="320" height="30" as="geometry" />
+          <mxGeometry y="60" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-23" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 242, 251));&quot;&gt;INTERNET&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="590" y="35" width="190" height="125" as="geometry" />
+          <mxGeometry x="510" y="35" width="270" height="125" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T_EyYF5P1BX6eirX32t8-25" target="T_EyYF5P1BX6eirX32t8-23">
           <mxGeometry relative="1" as="geometry" />
@@ -87,7 +94,7 @@
           <mxGeometry x="650" y="240" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-27" value="STORAGE FOR IMAGES" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="165" y="560" width="185" height="100" as="geometry" />
+          <mxGeometry x="-167.5" y="820" width="185" height="100" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.357;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T_EyYF5P1BX6eirX32t8-16" target="T_EyYF5P1BX6eirX32t8-19">
           <mxGeometry relative="1" as="geometry" />
@@ -191,6 +198,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T_EyYF5P1BX6eirX32t8-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T_EyYF5P1BX6eirX32t8-16" target="T_EyYF5P1BX6eirX32t8-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_EyYF5P1BX6eirX32t8-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="T_EyYF5P1BX6eirX32t8-80" target="T_EyYF5P1BX6eirX32t8-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_EyYF5P1BX6eirX32t8-80" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="670" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T_EyYF5P1BX6eirX32t8-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.857;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T_EyYF5P1BX6eirX32t8-80" target="T_EyYF5P1BX6eirX32t8-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
